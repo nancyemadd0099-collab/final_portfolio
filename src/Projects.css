@@ -1,0 +1,37 @@
+#projects-section {
+    padding: 120px 0 100px 0;
+    background: linear-gradient(to top, #f9f9f9, #f9f9f9, #f9f9f9, #f9f9f9, #dddddd, #9a9a9a);
+    text-align: center;
+}
+
+#projects-section .container>p {
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    font-family: "Playfair Display", sans-serif;
+    padding-bottom: 40px;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+/* ----------------------------  Responsive  ---------------------------- */
+
+@media (max-width: 576px) {
+    #projects-section {
+        padding: 120px 0 100px 0;
+    }
+
+    #projects-section .container>p {
+        font-size: 34px;
+        padding-bottom: 50px;
+    }
+
+    .project {
+        grid-template-columns: 1fr;
+    }
+}

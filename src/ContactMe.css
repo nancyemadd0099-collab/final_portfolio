@@ -1,0 +1,131 @@
+#contact-section {
+    background: linear-gradient(to bottom, #f9f9f9, #f9f9f9, #d7d6d6, #9a9a9a);
+    height: 60vh;
+    padding: 30px 0;
+}
+
+#contact-section .container>p {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 22px;
+}
+
+#contact-section .container>div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.content-contactme {
+    padding-right: 30px;
+}
+
+.content-contactme>p {
+    font-size: 18px;
+    color: #777676;
+
+}
+
+.link-contactme {
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+    margin-top: 32px;
+}
+
+
+.link-contactme div a {
+    font-size: 28px;
+    padding: 10px;
+    border-radius: 30px;
+    transition: .5s;
+    color: #696969;
+}
+
+.link-contactme div a:hover {
+    background-color: #ae1818;
+    color: white;
+}
+
+
+.form-contactme form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-name,
+.input-mail {
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: #cdcdcd;
+    border: none;
+}
+
+textarea {
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #cdcdcd;
+    color: black;
+    border: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #5d5d5d;
+}
+
+.btn-submit {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    background: linear-gradient(to right, #ae1818, #ffffff);
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: 0px 2px 7px 0px #c9c9c9;
+    transition: .3s;
+    color: white;
+}
+
+
+.btn-submit:hover {
+    box-shadow: 1px 6px 19px 5px #646464;
+}
+
+
+/* ----------------------------  Responsive  ---------------------------- */
+
+@media (max-width: 576px) {
+    #contact-section {
+        height: 72vh;
+    }
+
+    #contact-section .container>p {
+        font-size: 34px;
+        font-weight: 800;
+        margin-bottom: 22px;
+    }
+
+    #contact-section .container>div {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .link-contactme {
+        width: 55%;
+        margin-top: 20px;
+    }
+
+    .link-contactme div a {
+        font-size: 25px;
+    }
+
+    .form-contactme form {
+        gap: 10px;
+    }
+
+}

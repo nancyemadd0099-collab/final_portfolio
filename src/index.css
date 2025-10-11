@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to top, #f9f9f9, #f9f9f9, #f9f9f9, #fdfdfd, #fdfdfd, #edecec, #e0e0e0, #9a9a9a);
+    overflow-x: hidden;
+}
+
+
+.linear {
+    background: linear-gradient(to right, #510303, #ae1818, #da0101);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#root {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}

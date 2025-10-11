@@ -1,0 +1,43 @@
+#aboutme-section {
+    background: linear-gradient(to top, #f9f9f9, #fdfdfd, #c5c5c5);
+    height: 70vh;
+}
+
+#aboutme-section .container {
+    height: 100%;
+}
+
+#aboutme-section .container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#aboutme-section .container p:nth-of-type(1) {
+    font-size: 44px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+    color: #686868;
+}
+
+#aboutme-section .container p:nth-of-type(2) {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #959595;
+}
+
+/* ----------------------------  Responsive  ---------------------------- */
+
+@media (max-width: 576px) {
+
+    #aboutme-section .container p:nth-of-type(1) {
+        font-size: 34px;
+    }
+
+    #aboutme-section .container p:nth-of-type(2) {
+        font-size: 15px;
+        text-align: center;
+    }
+}
