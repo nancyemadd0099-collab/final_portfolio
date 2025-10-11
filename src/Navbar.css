@@ -1,8 +1,9 @@
 #nav-section {
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
     padding-top: 20px;
+        width: 100%;
 }
 
 #nav-section .container {
@@ -12,7 +13,6 @@
     border-radius: 20px;
     padding: 0 20px;
     box-shadow: 0px 1px 12px 0px #9E9E9E;
-    position: static;
 }
 
 .logo-nav div {
@@ -125,13 +125,13 @@
 
 @media (max-width: 576px) {
 
-    #nav-section {
+    /* #nav-section {
         position: sticky;
         top: 0;
         z-index: 1000;
         padding-top: 20px;
         margin: 0 10px;
-    }
+    } */
 
     #nav-section .container {
         border-radius: 10px;
