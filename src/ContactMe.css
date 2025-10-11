@@ -101,7 +101,7 @@ form textarea::placeholder {
 
 @media (max-width: 576px) {
     #contact-section {
-        height: 72vh;
+        height: 75vh;
     }
 
     #contact-section .container>p {
