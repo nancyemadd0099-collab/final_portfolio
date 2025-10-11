@@ -51,7 +51,7 @@ function Home() {
                         </div>
 
                         <div className="pic">
-                            <img src="public/me.jpeg" alt="imageme" />
+                            <img src="/me.jpeg" alt="imageme" />
                         </div>
                     </div>
                 </div>
