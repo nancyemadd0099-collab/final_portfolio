@@ -35,7 +35,7 @@ function ContactMe() {
                         <div className="content-contactme">
                             <p>I'm always interested in hearing about new projects and opportunities. Feel free to reach out!</p>
                             <div className="link-contactme">
-                                <div><a href=""><i className="fa-brands fa-github"></i></a></div>
+                                <div><a href="https://github.com/nancyemadd0099-collab"><i className="fa-brands fa-github"></i></a></div>
                                 <div><a href="https://www.linkedin.com/in/nancy-emadd-2a4480312"><i className="fa-brands fa-linkedin"></i></a></div>
                                 <div><a href="mailto:nancyemadd009@gmail.com"><i className="fa-solid fa-envelope"></i></a></div>
                             </div>
