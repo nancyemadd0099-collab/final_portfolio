@@ -3,7 +3,7 @@ import './Home.css'
 
 
 function Home() {
-    const text = "Frontend Developer";
+    const text = "Frontend React.js Developer";
     const speed = 150;
     const typingRef = useRef(null);
 
@@ -38,7 +38,7 @@ function Home() {
                 <div className="container">
                     <div className="hero">
                         <div className="content">
-                            <h1 className='linear'>Nancy Emad Abdel Rahiem</h1>
+                            <h1 className='linear'>Nancy Emad Abdelrahiem</h1>
                             <p ref={typingRef} id="typing"></p>
                             <p>i build modern and responsive web applications</p>
                             <button
