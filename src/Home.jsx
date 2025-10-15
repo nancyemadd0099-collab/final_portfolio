@@ -44,8 +44,8 @@ function Home() {
                             <button
                                 onClick={() => {
                                     const link = document.createElement("a")
-                                    link.href = "/home/nancy/ExtraDisk/final portfolio/public/Nancy-Emad-Abdelrahiem FrontEnd.pdf"
-                                    link.download = "Nancy-Emad-Abdelrahiem FrontEnd.pdf"
+                                    link.href = "/Nancy-Emad-Abdelrahiem-Front-End Developer.pdf"
+                                    link.download = "Nancy-Emad-Abdelrahiem-Front-End Developer.pdf"
                                     link.click();
                                 }}>Download CV</button>
                         </div>
